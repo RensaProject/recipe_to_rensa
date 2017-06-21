@@ -3,6 +3,8 @@
 ## Overview
 Extract ingredients from a recipe written in English. Store as Rensa encodings (Simprel format).  
 
+Example: "1 pound carrots, purple" is stored as a Rensa assertion that separates the ingredient name ("carrots"), numerical amount ("1"), unit ("pound"), and additional comments ("purple".)
+
 (Recipe instructions can also be parsed and the Simprel JSON structures can be realized - just ask if you're interested!)
 
 ## Requirements

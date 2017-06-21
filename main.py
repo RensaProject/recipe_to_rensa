@@ -33,7 +33,8 @@ def write_recipe_assertion(line, parsed):
             return {
                 "l":[left],
                 "relation":"instance_of",
-                "r":["ingredient"], "r_unit":[right_unit],
+                "r":["ingredient"], 
+                "r_unit":[right_unit],
                 "r_num":[right_num],
                 "comment": comment,
                 "text": line

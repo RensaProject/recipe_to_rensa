@@ -1,0 +1,4 @@
+ingredient_parser==1.0.1
+spacy==1.8.2
+git+git://github.com/RensaProject/nodebox_linguistics_extended@master#nodebox_linguistics_extended
+git+git://github.com/RensaProject/rensabrain@master#rensabrain

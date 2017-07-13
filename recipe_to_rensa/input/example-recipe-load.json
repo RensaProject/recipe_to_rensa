@@ -1,0 +1,399 @@
+[
+  {
+    "comment": {
+      "misc": [
+        "(8 ounces)", 
+        [
+          "softened"
+        ]
+      ], 
+      "properties": []
+    }, 
+    "text": "1 package (8 ounces) cream cheese, softened", 
+    "l": [
+      "cream cheese"
+    ], 
+    "r": [
+      "ingredient"
+    ], 
+    "relation": "instance_of", 
+    "quantity": {
+      "values": [
+        {
+          "unit": "package", 
+          "value": "1"
+        }
+      ], 
+      "type": "exact"
+    }
+  }, 
+  {
+    "comment": {
+      "misc": [
+        "(8 ounces)", 
+        []
+      ], 
+      "properties": []
+    }, 
+    "text": "1 cup (8 ounces) sour cream", 
+    "l": [
+      "sour cream"
+    ], 
+    "r": [
+      "ingredient"
+    ], 
+    "relation": "instance_of", 
+    "quantity": {
+      "values": [
+        {
+          "unit": "cup", 
+          "value": "1"
+        }
+      ], 
+      "type": "exact"
+    }
+  }, 
+  {
+    "comment": {
+      "misc": [
+        []
+      ], 
+      "properties": []
+    }, 
+    "text": "1/3 cup sugar", 
+    "l": [
+      "sugar"
+    ], 
+    "r": [
+      "ingredient"
+    ], 
+    "relation": "instance_of", 
+    "quantity": {
+      "values": [
+        {
+          "unit": "cup", 
+          "value": "1/3"
+        }
+      ], 
+      "type": "exact"
+    }
+  }, 
+  {
+    "comment": {
+      "misc": [
+        []
+      ], 
+      "properties": []
+    }, 
+    "text": "2 teaspoons vanilla extract", 
+    "l": [
+      "vanilla extract"
+    ], 
+    "r": [
+      "ingredient"
+    ], 
+    "relation": "instance_of", 
+    "quantity": {
+      "values": [
+        {
+          "unit": "teaspoons", 
+          "value": "2"
+        }
+      ], 
+      "type": "exact"
+    }
+  }, 
+  {
+    "comment": {
+      "misc": [
+        []
+      ], 
+      "properties": [
+        "seedless"
+      ]
+    }, 
+    "text": "2 pounds seedless red grapes", 
+    "l": [
+      "red grapes"
+    ], 
+    "r": [
+      "ingredient"
+    ], 
+    "relation": "instance_of", 
+    "quantity": {
+      "values": [
+        {
+          "unit": "pounds", 
+          "value": "2"
+        }
+      ], 
+      "type": "exact"
+    }
+  }, 
+  {
+    "comment": {
+      "misc": [
+        []
+      ], 
+      "properties": [
+        "seedless"
+      ]
+    }, 
+    "text": "2 pounds seedless green grapes", 
+    "l": [
+      "green grapes"
+    ], 
+    "r": [
+      "ingredient"
+    ], 
+    "relation": "instance_of", 
+    "quantity": {
+      "values": [
+        {
+          "unit": "pounds", 
+          "value": "2"
+        }
+      ], 
+      "type": "exact"
+    }
+  }, 
+  {
+    "comment": {
+      "misc": [
+        []
+      ], 
+      "properties": []
+    }, 
+    "text": "3 tablespoons brown sugar", 
+    "l": [
+      "brown sugar"
+    ], 
+    "r": [
+      "ingredient"
+    ], 
+    "relation": "instance_of", 
+    "quantity": {
+      "values": [
+        {
+          "unit": "tablespoons", 
+          "value": "3"
+        }
+      ], 
+      "type": "exact"
+    }
+  }, 
+  {
+    "grammatical_mood": "imperative", 
+    "l": [
+      "chef"
+    ], 
+    "r": [
+      "chop"
+    ], 
+    "relation": "action", 
+    "storypoints": [
+      {
+        "at": 0
+      }
+    ], 
+    "action_object": [
+      "pecans"
+    ], 
+    "type": "recipe instruction"
+  }, 
+  {
+    "comment": {
+      "misc": [
+        []
+      ], 
+      "properties": []
+    }, 
+    "text": "3 tablespoons chopped pecans", 
+    "l": [
+      "pecans"
+    ], 
+    "r": [
+      "ingredient"
+    ], 
+    "relation": "instance_of", 
+    "quantity": {
+      "values": [
+        {
+          "unit": "tablespoons", 
+          "value": "3"
+        }
+      ], 
+      "type": "exact"
+    }
+  }, 
+  {
+    "grammatical_mood": "imperative", 
+    "l": [
+      "chef"
+    ], 
+    "condition_given": [
+      {
+        "r": [
+          "large"
+        ], 
+        "relation": "has_property", 
+        "l": [
+          "bowl"
+        ]
+      }, 
+      {
+        "r": [
+          "sour"
+        ], 
+        "relation": "has_property", 
+        "l": [
+          "cream"
+        ]
+      }
+    ], 
+    "r": [
+      "beat"
+    ], 
+    "relation": "action", 
+    "location_in": [
+      "bowl"
+    ], 
+    "storypoints": [
+      {
+        "at": 10
+      }
+    ], 
+    "action_object": [
+      "cream cheese", 
+      "cream", 
+      "sugar", 
+      "vanilla"
+    ], 
+    "type": "recipe instruction"
+  }, 
+  {
+    "grammatical_mood": "imperative", 
+    "l": [
+      "chef"
+    ], 
+    "r": [
+      "add"
+    ], 
+    "relation": "action", 
+    "storypoints": [
+      {
+        "at": 11
+      }
+    ], 
+    "action_object": [
+      "grapes"
+    ], 
+    "type": "recipe instruction"
+  }, 
+  {
+    "grammatical_mood": "imperative", 
+    "l": [
+      "chef"
+    ], 
+    "condition_to": [
+      {
+        "preposition": "to", 
+        "action_object": [
+          "coat"
+        ]
+      }
+    ], 
+    "r": [
+      "toss"
+    ], 
+    "relation": "action", 
+    "storypoints": [
+      {
+        "at": 11
+      }
+    ], 
+    "type": "recipe instruction"
+  }, 
+  {
+    "storypoints": [
+      {
+        "at": 12
+      }
+    ]
+  }, 
+  {
+    "grammatical_mood": "imperative", 
+    "l": [
+      "chef"
+    ], 
+    "r": [
+      "cover"
+    ], 
+    "relation": "action", 
+    "storypoints": [
+      {
+        "at": 13
+      }
+    ], 
+    "type": "recipe instruction"
+  }, 
+  {
+    "grammatical_mood": "imperative", 
+    "l": [
+      "chef"
+    ], 
+    "r": [
+      "refrigerate"
+    ], 
+    "relation": "action", 
+    "storypoints": [
+      {
+        "at": 13
+      }
+    ], 
+    "type": "recipe instruction"
+  }, 
+  {
+    "grammatical_mood": "imperative", 
+    "l": [
+      "chef"
+    ], 
+    "condition_given": [
+      {
+        "r": [
+          "brown"
+        ], 
+        "relation": "has_property", 
+        "l": [
+          "sugar"
+        ]
+      }
+    ], 
+    "condition_with": [
+      {
+        "preposition": "with", 
+        "action_object": [
+          "sugar", 
+          "pecans"
+        ]
+      }
+    ], 
+    "r": [
+      "sprinkle"
+    ], 
+    "relation": "action", 
+    "storypoints": [
+      {
+        "at": 14
+      }
+    ], 
+    "type": "recipe instruction"
+  }, 
+  {
+    "storypoints": [
+      {
+        "at": 15
+      }
+    ]
+  }
+]
